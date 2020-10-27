@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 50px;
+    padding: 8px 15px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 500;
+}
+
+nav a:hover {
+    /* background-color: white;
+    border-radius: 10px;
+    color: royalblue */
+    color: rgb(221, 215, 215);
+    
+}
+ 
+
+header {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+header > h1 {
+    color: black;
+    font-size: 50px;
+    background-color: white;
+    padding: 14px 25px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-radius: 20px;
+}
+
+.section1, .section2 {
+    background-color: black;
+}
+.container {
+    width: 80%;
+    height: 650px;
+    color: white;
+    text-align: center;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 500;
+    margin: auto
+}
+
+
+
+.container > h1 {
+    font-size: 60px;
+    padding: 25px;
+    letter-spacing: 3px;
+}
+
+.container > p {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+
+.picture2 {
+    height: 700px;
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture2 > h1 {
+        color: black;
+        font-size: 50px;
+        background-color: white;
+        padding: 14px 25px;
+        font-family: 'Commissioner', sans-serif;
+        font-weight: 700;
+        letter-spacing: 3px;
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+.picture3 {
+    height: 700px;
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture3 > h1 {
+    color: black;
+    font-size: 50px;
+    background-color: white;
+    padding: 14px 25px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.right {
+    float: right;
+    padding: 15px 31px;
+}
+
+.left {
+    float: left;
+    padding: 15px 31px;
+}
+
+.right > h3 {
+    display: inline-block;
+}
+
+a[target="_blank"]{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
